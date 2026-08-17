@@ -199,9 +199,14 @@ bayesian-prior-sensitivity/
 │
 ├── figures/
 │   ├── fig1_prior_vs_posterior.png
+│   ├── fig1a_priors.png
+│   ├── fig1b_priors.png
+│   ├── fig1c_priors.png
 │   ├── fig2_point_estimators.png
 │   ├── fig3_interval_estimation.png
 │   ├── fig4_sensitivity.png
+│   ├── fig4a_sensitivity.png
+│   ├── fig4b_sensitivity.png
 │   └── fig5_kl_and_loss.png
 │
 ├── bayesian_prior_sensitivity.ipynb
@@ -209,6 +214,7 @@ bayesian-prior-sensitivity/
 ├── requirements.txt
 └── .gitignore
 ```
+
 
 The split versions of Figures 1 and 4 are retained in `figures/`, while the combined figures are used in this README.
 
