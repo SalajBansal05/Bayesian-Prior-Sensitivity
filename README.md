@@ -151,20 +151,19 @@ At the full sample size, posterior mean, median, and MAP are nearly identical be
 
 ## Posterior Predictive Inference
 
-For the Beta-Binomial model, the probability that the next observation is benign is
+For the Beta-Binomial model, the posterior predictive probability that the next observation is benign is equal to the posterior mean:
 
-$$
-P(X_{\text{new}}=1 \mid D)
+```math
+P(X_{\mathrm{new}} = 1 \mid D)
 =
-E[\theta \mid D]
+\mathbb{E}[\theta \mid D]
 =
-\frac{\alpha+k}{\alpha+\beta+n}.
-$$
+\frac{\alpha + k}{\alpha + \beta + n}
+```
 
-Thus, the posterior predictive probability is equal to the posterior mean.
+Thus, the posterior predictive probability is determined by the posterior mean.
 
 For weak and non-informative priors, this prediction is very close to the MLE plug-in estimate. Strongly informative or misspecified priors retain some influence on the prediction.
-
 ## Key Findings
 
 - **Prior choice is most consequential when the sample size is small.**
